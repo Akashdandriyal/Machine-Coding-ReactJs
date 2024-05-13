@@ -1,0 +1,30 @@
+.title {
+  text-align: center;
+}
+
+.questions-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.accordion {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #edecec;
+  border-bottom: 4px solid gray;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-header > h3 {
+  margin: 0;
+}
+
+.down {
+  transform: rotate(180deg);
+}
