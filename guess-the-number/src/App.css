@@ -1,0 +1,42 @@
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container > p {
+  font-weight: bold;
+}
+
+.container > input {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.submitBtn {
+  background-color: dodgerblue;
+}
+
+.startBtn {
+  background-color: forestgreen;
+}
+
+.disabledBtn {
+  background-color: lightgray;
+}
+
+.message-container {
+  text-align: center;
+}
