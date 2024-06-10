@@ -1,0 +1,20 @@
+.wrapper {
+  text-align: center;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.btnGreen {
+  background-color: limegreen;
+}
+
+.btnRed {
+  background-color: red;
+}
