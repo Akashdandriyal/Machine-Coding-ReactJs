@@ -18,10 +18,10 @@ const EmployeeDetails = ({ employee }) => {
       {employee.id && (
         <div className="text-center">
           <img
-            src={profileImage}
+            src={employee.image_url}
             alt={employee.firstname + " " + employee.lastname}
             ref={imgRef}
-            className="h-40 object-contain mx-auto"
+            className="h-40 object-contain my-4 mx-auto"
             onError={handleImageError}
           />
           <h2 className="font-bold">
