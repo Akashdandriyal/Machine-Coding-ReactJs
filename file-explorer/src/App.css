@@ -2,6 +2,17 @@
   padding: 50px;
 }
 
+.folder {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  background-color: #d7d7d7;
+  padding: 5px;
+  margin: 5px 0;
+}
+
 .folder-content {
   padding-left: 20px;
 }
