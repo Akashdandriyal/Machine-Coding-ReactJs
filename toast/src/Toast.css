@@ -1,0 +1,28 @@
+.toast {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: forestgreen;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  animation-name: slideTop;
+  animation-duration: 0.5s;
+}
+
+.close-btn {
+  cursor: pointer;
+}
+
+@keyframes slideTop {
+  from {
+    top: 100px;
+  }
+  to {
+    top: 20px;
+  }
+}
