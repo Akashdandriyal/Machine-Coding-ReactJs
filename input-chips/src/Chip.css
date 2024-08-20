@@ -1,0 +1,11 @@
+.chip {
+  padding: 5px 10px;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+.remove-btn {
+  margin-left: 5px;
+  cursor: pointer;
+}

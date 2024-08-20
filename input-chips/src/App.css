@@ -1,0 +1,30 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+.input-container {
+  margin-top: 20px;
+  width: 400px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.chips-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
