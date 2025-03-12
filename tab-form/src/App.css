@@ -1,0 +1,39 @@
+.tabs-header {
+  display: flex;
+}
+
+.tab-heading {
+  padding: 10px;
+  border: 1px solid black;
+  border-bottom: 0;
+}
+
+.tab-content {
+  padding: 10px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.profile-tab,
+.interests-tab,
+.settings-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: left;
+}
+
+.active {
+  color: white;
+  background-color: black;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+}
